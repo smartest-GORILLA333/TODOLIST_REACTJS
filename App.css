@@ -1,0 +1,95 @@
+/* App.css */
+
+body{
+    background: rgb(0,235,224);
+    background: linear-gradient(90deg, rgba(0,235,224,1) 35%, rgba(0,255,72,1) 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    text-shadow: 0 4px 5px black;
+}
+.s_container {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    overflow-y: auto;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input{
+    flex: 1;
+    background-color: rgb(241, 241, 241);
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgb(77, 77, 77);
+}
+button{
+    color: white;
+    background: none;
+    border: none;
+    border-radius: 5px;
+}
+#addBtn{
+    padding: 0 10px;
+    font-weight: bolder;
+    background-color: rgb(0, 231, 66);
+    box-shadow: 0 5px 10px rgb(77, 77, 77);
+
+}
+#modBtn{
+    background-color: rgb(0, 162, 255);
+    box-shadow: 0 3px 5px rgb(77, 77, 77);
+}
+#delBtn{
+    background-color: red;
+    box-shadow: 0 3px 5px rgb(77, 77, 77);
+
+}
+#clrBtn{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(0, 231, 66);
+    box-shadow: 0 5px 10px rgb(77, 77, 77);
+}
+ul{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+}
+li{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(179,179,179,1) 100%);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed black;
+    white-space: normal;
+    
+}
+
+
